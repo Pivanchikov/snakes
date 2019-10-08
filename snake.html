@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Game Snake</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+  <div id="start">
+    <h2> START GAME </h2>
+      <button type="button" id="startButton"  onclick="startGame()"> Go </button>
+  </div>
+
+    <canvas id="field" width="1271" height="604"></canvas>
+
+    <div id="bottom">
+      <label id="score"> SCORE: </label>
+      <button type="button" id="endButton" onclick="finishGame()">FINISH GAME</button>
+    </div>
+</div>
+
+<!-- <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script> -->
+<script src="index2.js"></script>
+<script src="start.js"></script>
+</body>
+</html>

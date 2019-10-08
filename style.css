@@ -1,0 +1,51 @@
+html, body {padding: 0;margin: 0;}
+* {box-sizing: border-box;}
+body {background: #ddd; padding: 50px;}
+canvas {
+  background: black;
+  margin: 0 ;
+}
+#container{
+   width: 1280px;
+   height: 720px;
+   border: 4px ridge orange;
+   background: rgb(91, 98, 85)
+
+}
+#start{
+   display: block;
+   text-align: center;
+   text-shadow: 1;
+   color: orange;
+   font: sans-serif;
+   font-style: bold;
+}
+#startButton{
+  width: 100px;
+  height: 40px;
+  background: rgb(148, 163, 98);
+  color: lime;
+}
+
+#bottom{
+  display: block
+}
+
+#endButton{
+  width: 100px;
+  height: 40px;
+  background: rgb(148, 163, 98);
+  color: lime;
+  float: right;
+  margin-right: 130px;
+}
+
+#score{
+  text-align: left;
+  text-shadow: 1;
+  color: orange;
+  font: sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  margin-left: 130px;
+}
